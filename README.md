@@ -8,6 +8,10 @@ Execution:
 
 Sample results so far:
 
+https://soundcloud.com/erik-anderson-67/sid0-sigma08
+
+https://soundcloud.com/erik-anderson-67/sid0-sigma07
+
 https://soundcloud.com/erik-anderson-67/sid0-sigma05
 
 https://soundcloud.com/erik-anderson-67/sid0-sigma06
