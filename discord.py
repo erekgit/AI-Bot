@@ -282,10 +282,10 @@ async def on_message(message):
         for msg in conversation[-1]:          
             print(f"{id}: {msg}")
             if msg.replace("TransformerGenerator", "~") != '~':
-               await message.channel.send(msg.replace("TransformerGenerator", "~"))
+               await message.channel.send(msg.replace("TransformerGenerator", "~").replace(" ' ", "'").replace(" ?", "?").replace(" .", ".").replace(" ,", ","))
             
                #os.system('python inference.py -c config.json -f models/flowtron_ljs.pt -w models/waveglow_256channels_v4_new.pt -t \"'+ msg +'\" -i 0')
-               test(msg, args.id, args.n_frames, args.sigma, args.seed)
+               test(msg.replace(" ' ", "'").replace(" ?", "?").replace(" .", ".").replace(" ,", ","), args.id, args.n_frames, args.sigma, args.seed)
                
                
              
